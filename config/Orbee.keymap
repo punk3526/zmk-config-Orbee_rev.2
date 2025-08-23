@@ -65,15 +65,17 @@
 
         MINIMAL {
             bindings = <
-&kp W             &kp W         &kp E         &kp R             &kp T                                             &kp Y        &kp U  &lt 0 I    &kp O    &kp P
+&kp N1            &kp N2        &kp N3        &kp N4            &kp N5                                            &kp Y        &kp U  &lt 0 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F             &kp G        &kp EQUAL             &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &lt 4 COLON           &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 INT_HENKAN  &lt 2 SPACE  &lt 3 INT_MUHENKAN    &kp BACKSPACE  &lt 1 ENTER                             &kp A
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 INT_HENKAN  &lt 2 SPACE  &lt 3 INT_MUHENKAN    &kp BACKSPACE  &lt 1 ENTER                             &kp ENTER
             >;
 
             sensor-bindings =
                 <&scroll_up_down>,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+
+            label = "MINIMAL";
         };
 
         layer_1 {

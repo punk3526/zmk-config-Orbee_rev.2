@@ -63,7 +63,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        MINIMAL {
             bindings = <
 &kp W             &kp W         &kp E         &kp R             &kp T                                             &kp Y        &kp U  &lt 0 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F             &kp G        &kp EQUAL             &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT

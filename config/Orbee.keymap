@@ -65,10 +65,10 @@
 
         MINIMAL {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R        &kp T                                                                                     &kp Y      &kp U  &lt 0 I    &kp O    &kp P
-&kp A      &kp S         &kp D         &kp F        &kp G        &kp EQUAL                            &kp RGUI                                &kp H      &kp J  &kp K      &kp L    &kp ENTER
-&kp Z      &kp X         &kp C         &kp V        &kp B        &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS    &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp N      &kp M  &kp COMMA  &kp DOT  &lt 4 TAB
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 SPACE  &lt 2 SPACE  &lt 3 LC(SPACE)                      &mkp LCLK                               &mkp RCLK                             &lt 5 BACKSPACE
+&kp Q             &kp W         &kp E         &kp R        &kp T                                                                                     &kp Y      &kp U  &lt 0 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F        &kp G        &kp EQUAL                            &kp RGUI                                &kp H      &kp J  &kp K      &kp L    &kp ENTER
+&mt Z LEFT_SHIFT  &kp X         &kp C         &kp V        &kp B        &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS    &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp N      &kp M  &kp COMMA  &kp DOT  &lt 4 TAB
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 SPACE  &lt 2 SPACE  &lt 3 LC(SPACE)                      &mkp LCLK                               &mkp RCLK                             &lt 5 BACKSPACE
             >;
 
             sensor-bindings =

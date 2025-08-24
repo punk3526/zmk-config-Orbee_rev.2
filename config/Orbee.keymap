@@ -115,10 +115,10 @@
 
         FCPX {
             bindings = <
-&kp LS(TAB)   &kp LC(LA(M))  &kp LA(T)  &kp LC(LA(R))  &trans                         &kp LG(B)      &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp LC(MINUS)  &kp LS(SPACE)
-&kp LS(CLCK)  &trans         &trans     &trans         &trans  &trans    &kp LG(Z)    &kp LS(LG(Z))  &kp LS(LEFT_ARROW)    &kp LS(RIGHT_ARROW)    &kp LS(LG(R))  &kp LG(BACKSPACE)
-&kp LSHFT     &trans         &trans     &trans         &trans  &trans    &bootloader  &trans         &trans                &trans                 &trans         &trans
-&trans        &trans         &trans     &trans         &trans  &trans    &trans       &trans                                                                     &trans
+&kp LS(TAB)   &kp LC(LA(M))  &kp LA(T)  &kp LC(LA(R))  &trans                         &kp LG(B)      &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp LC(MINUS)        &kp LS(SPACE)
+&kp LS(CLCK)  &trans         &trans     &trans         &trans  &trans    &kp LG(Z)    &kp LS(LG(Z))  &kp LS(LEFT_ARROW)    &kp LS(RIGHT_ARROW)    &kp LS(LG(R))        &kp LG(BACKSPACE)
+&kp LSHFT     &trans         &trans     &trans         &trans  &trans    &bootloader  &trans         &trans                &kp LC(LEFT_ARROW)     &kp LC(RIGHT_ARROW)  &trans
+&trans        &trans         &trans     &trans         &trans  &trans    &trans       &trans                                                                           &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;

@@ -65,10 +65,10 @@
 
         MINIMAL {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R        &kp T                                               &kp Y     &kp U  &lt 0 I    &kp O    &kp P
-&kp A      &kp S         &kp D         &kp F        &kp G        &kp EQUAL             &kp MINUS        &kp H     &kp J  &kp K      &kp L    &kp ENTER
-&kp Z      &kp X         &kp C         &kp V        &kp B        &kp GLOBE             &kp GLOBE        &kp N     &kp M  &kp COMMA  &kp DOT  &kp RSHFT
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 SPACE  &lt 2 SPACE  &lt 3 LANG_HANGEUL    &lt 4 RIGHT_WIN  &kp RALT                             &lt 5 BACKSPACE
+&kp Q      &kp W         &kp E         &kp R        &kp T                                                                                     &kp Y     &kp U  &lt 0 I    &kp O    &kp P
+&kp A      &kp S         &kp D         &kp F        &kp G        &kp EQUAL                            &kp MINUS                               &kp H     &kp J  &kp K      &kp L    &kp ENTER
+&kp Z      &kp X         &kp C         &kp V        &kp B        &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS    &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp N     &kp M  &kp COMMA  &kp DOT  &kp RSHFT
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 SPACE  &lt 2 SPACE  &lt 3 LC(SPACE)                      &lt 4 RIGHT_WIN                         &kp RALT                             &lt 5 BACKSPACE
             >;
 
             sensor-bindings =
@@ -126,10 +126,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans          &trans           &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp LCLK       &mkp RCLK        &mmv MOVE_UP  &mmv MOVE_DOWN
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &msc SCRL_LEFT  &msc SCRL_RIGHT  &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                                 &trans
+&trans  &trans  &trans  &trans  &trans                             &mkp MCLK        &mkp MB4        &mkp MB5      &trans           &kp BACKSPACE
+&trans  &trans  &trans  &trans  &trans  &trans    &trans           &trans           &mkp LCLK       &mkp RCLK     &mmv MOVE_UP     &mmv MOVE_DOWN
+&trans  &trans  &trans  &trans  &trans  &trans    &msc MOVE_X(20)  &msc MOVE_Y(20)  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &msc SCRL_LEFT
+&trans  &trans  &trans  &trans  &trans  &trans    &trans           &trans                                                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;

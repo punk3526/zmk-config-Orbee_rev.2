@@ -75,7 +75,7 @@
             label = "MINIMAL";
         };
 
-        layer_1 {
+        ESC123 {
             bindings = <
 &kp ESC             &kp NUMBER_1         &kp NUMBER_2  &kp NUMBER_3  &trans                                        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS
 &trans              &kp NUMBER_4         &kp NUMBER_5  &kp NUMBER_6  &trans        &trans    &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2     &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS
@@ -86,7 +86,7 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        layer_2 {
+        ARROW {
             bindings = <
 &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)   &kp LS(DLLR)    &kp LS(PRCNT)                                              &kp CARET         &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp SLASH     &none       &none           &kp UP_ARROW    &none            &kp LC(LA(KP_NUMBER_0))    &none          &none             &kp MINUS      &kp EQUAL     &kp LBKT              &kp RBKT
@@ -97,7 +97,7 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        layer_5 {
+        NONE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans

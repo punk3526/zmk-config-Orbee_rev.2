@@ -65,10 +65,10 @@
 
         MINIMAL {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R        &kp T                                                        &kp Y      &kp U  &kp I      &kp O    &mt P BACKSPACE
-&kp A      &kp S         &kp D         &kp F        &kp G        &kp EQUAL                            &kp RGUI   &kp H      &kp J  &kp K      &kp L    &kp ENTER
-&kp LSHFT  &kp Z         &kp X         &kp C        &kp V        &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS    &kp B      &kp N      &kp M  &kp COMMA  &kp DOT  &lt 4 TAB
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 SPACE  &lt 2 SPACE  &mkp RCLK                            &mkp LCLK  &kp SPACE                             &lt 5 BACKSPACE
+&kp Q      &kp W         &kp E         &kp R        &kp T                                                        &kp Y      &kp U  &kp I      &kp O      &kp P
+&kp A      &kp S         &kp D         &kp F        &kp G        &kp EQUAL                            &kp H      &kp J      &kp K  &kp L      &kp ENTER  &kp BSPC
+&kp LSHFT  &kp Z         &kp X         &kp C        &kp V        &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS    &kp B      &kp N      &kp M  &kp COMMA  &kp DOT    &lt 4 TAB
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 SPACE  &lt 2 SPACE  &mkp RCLK                            &mkp LCLK  &kp SPACE                               &lt 5 RIGHT_WIN
             >;
 
             sensor-bindings = <&inc_dec_kp LG(MINUS) LG(LS(NUMBER_6))>;
@@ -88,10 +88,10 @@
 
         layer_2 {
             bindings = <
-&kp LS(EXCL)                &kp LS(AT)       &kp LS(POUND)    &kp LS(DLLR)    &kp LS(PRCNT)                                              &kp CARET         &kp AMPERSAND  &kp LS(STAR)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp UP_ARROW    &kp ASTERISK     &kp LC(LA(KP_NUMBER_0))    &none          &none             &kp MINUS      &kp PLUS      &kp LBKT              &kp RBKT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp EQUAL                  &trans         &none             &kp COMMA      &kp DOT       &kp SEMI              &kp APOS
-&trans                      &trans           &trans           &trans          &trans           &trans                     &kp LESS_THAN  &kp GREATER_THAN                                                     &kp QUESTION
+&kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)   &kp LS(DLLR)    &kp LS(PRCNT)                                              &kp CARET         &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp SLASH     &none       &none           &kp UP_ARROW    &none            &kp LC(LA(KP_NUMBER_0))    &none          &none             &kp MINUS      &kp EQUAL     &kp LBKT              &kp RBKT
+&none         &none       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp EQUAL                  &trans         &none             &kp COMMA      &kp DOT       &kp SEMI              &kp APOS
+&trans        &trans      &trans          &trans          &trans           &trans                     &kp LESS_THAN  &kp GREATER_THAN                                                     &kp SLASH
             >;
 
             sensor-bindings = <&scroll_up_down>;

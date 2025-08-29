@@ -109,8 +109,8 @@
         FCPX {
             bindings = <
 &kp LS(TAB)           &kp LA(T)  &kp LC(LA(M))  &kp LC(LA(R))  &trans                             &kp LG(B)             &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp LC(MINUS)        &kp LS(SPACE)
-&kp LC(LG(NUMBER_1))  &trans     &trans         &trans         &trans  &trans    &kp LG(Z)        &kp LS(LG(Z))         &kp LS(LEFT_ARROW)    &kp LS(RIGHT_ARROW)    &kp LS(LG(R))        &kp LG(BACKSPACE)
-&kp LSHFT             &trans     &trans         &trans         &trans  &trans    &kp LC(LS(TAB))  &kp LG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LC(LEFT_ARROW)     &kp LC(RIGHT_ARROW)  &trans
+&kp LC(LG(NUMBER_1))  &trans     &trans         &trans         &trans  &trans    &kp LC(LS(TAB))  &kp LC(TAB)           &kp LS(LEFT_ARROW)    &kp LS(RIGHT_ARROW)    &kp LS(LG(R))        &kp LG(BACKSPACE)
+&kp LSHFT             &trans     &trans         &trans         &trans  &trans    &none            &kp LG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LC(LEFT_ARROW)     &kp LC(RIGHT_ARROW)  &trans
 &trans                &trans     &trans         &trans         &trans  &trans    &kp LG(MINUS)    &kp LS(LG(NUMBER_6))                                                                    &trans
             >;
 

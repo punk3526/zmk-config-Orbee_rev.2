@@ -88,10 +88,10 @@
 
         ARROW {
             bindings = <
-&kp LS(EXCL)         &kp LS(AT)           &kp LS(POUND)        &kp LS(DLLR)         &kp LS(PRCNT)                                                        &kp CARET            &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp INTERNATIONAL_1  &kp LANGUAGE_1       &kp LANG2            &kp UP_ARROW         &kp INTERNATIONAL_2  &kp LC(LA(KP_NUMBER_0))    &kp INTERNATIONAL_7  &kp INTERNATIONAL_8  &kp MINUS      &kp EQUAL     &kp LBKT              &kp RBKT
-&kp LSHFT            &kp LANGUAGE_5       &kp LEFT_ARROW       &kp DOWN_ARROW       &kp RIGHT_ARROW      &kp EQUAL                  &kp INTERNATIONAL_9  &none                &kp COMMA      &kp DOT       &kp SEMI              &kp APOS
-&kp INTERNATIONAL_3  &kp INTERNATIONAL_4  &kp INTERNATIONAL_5  &kp INTERNATIONAL_6  &trans               &trans                     &kp LESS_THAN        &kp GREATER_THAN                                                        &kp SLASH
+&kp LS(EXCL)    &kp LS(AT)      &kp LS(POUND)   &kp LS(DLLR)    &kp LS(PRCNT)                                                    &kp CARET            &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LANGUAGE_3  &kp LANGUAGE_1  &kp LANG2       &kp UP_ARROW    &kp LANGUAGE_4   &kp LC(LA(KP_NUMBER_0))    &kp INTERNATIONAL_7  &kp INTERNATIONAL_8  &kp MINUS      &kp EQUAL     &kp LBKT              &kp RBKT
+&kp LSHFT       &kp LANGUAGE_5  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp EQUAL                  &kp LANGUAGE_9       &none                &kp COMMA      &kp DOT       &kp SEMI              &kp APOS
+&kp LANGUAGE_5  &kp LANGUAGE_6  &kp LANGUAGE_7  &kp LANGUAGE_8  &trans           &trans                     &kp LESS_THAN        &kp GREATER_THAN                                                        &kp SLASH
             >;
 
             sensor-bindings = <&scroll_up_down>;

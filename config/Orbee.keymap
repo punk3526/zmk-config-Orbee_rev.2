@@ -68,7 +68,7 @@
 &kp Q      &kp W         &kp E         &kp R        &kp T                                                        &kp Y      &kp U  &kp I      &kp O      &kp P
 &kp A      &kp S         &kp D         &kp F        &kp G        &kp EQUAL                            &kp H      &kp J      &kp K  &kp L      &kp ENTER  &kp BSPC
 &kp LSHFT  &kp Z         &kp X         &kp C        &kp V        &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS    &kp B      &kp N      &kp M  &kp COMMA  &kp DOT    &lt 4 TAB
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 SPACE  &lt 2 SPACE  &mkp RCLK                            &mkp LCLK  &kp SPACE                               &lt 5 RIGHT_WIN
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 SPACE  &lt 2 SPACE  &mkp RCLK                            &mkp LCLK  &kp SPACE                               &lt 5 GLOBE
             >;
 
             sensor-bindings = <&inc_dec_kp LG(MINUS) LG(LS(NUMBER_6))>;

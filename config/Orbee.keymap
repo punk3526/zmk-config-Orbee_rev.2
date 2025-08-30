@@ -94,7 +94,7 @@
 &none              &none           &none           &none           &trans           &trans                     &kp LESS_THAN   &kp GREATER_THAN                                                     &kp SLASH
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp RS(LEFT_ARROW) RS(RIGHT_ARROW)>;
         };
 
         NONE {
@@ -114,18 +114,18 @@
 &trans                &none      &trans         &trans         &trans     &trans    &kp LG(MINUS)    &kp LS(LG(NUMBER_6))                                                                    &kp LA(S)
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
+            sensor-bindings = <&inc_dec_kp RS(LEFT_ARROW) RS(RIGHT_ARROW)>;
         };
 
         MOUSE {
             bindings = <
-&trans          &trans  &trans  &trans  &trans                             &none             &none            &none           &trans          &kp BACKSPACE
-&trans          &trans  &trans  &trans  &trans  &trans    &trans           &mkp LCLK         &mkp RCLK        &none           &mmv MOVE_UP    &none
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans    &none            &msc SCRL_LEFT    &msc SCRL_RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
-&trans          &trans  &trans  &trans  &trans  &trans    &msc MOVE_X(20)  &msc MOVE_X(-20)                                                   &trans
+&trans          &trans  &trans  &trans  &trans                             &none             &none      &none           &trans          &kp BACKSPACE
+&trans          &trans  &trans  &trans  &trans  &trans    &trans           &mkp LCLK         &mkp RCLK  &none           &mmv MOVE_UP    &none
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans    &none            &none             &none      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
+&trans          &trans  &trans  &trans  &trans  &trans    &msc MOVE_X(20)  &msc MOVE_X(-20)                                             &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>, <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp F3 F4>, <&scroll_up_down>;
         };
     };
 };

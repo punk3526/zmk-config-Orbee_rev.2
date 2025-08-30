@@ -90,7 +90,7 @@
             bindings = <
 &kp LS(EXCL)       &kp LS(AT)      &kp LS(POUND)   &kp LS(DLLR)    &kp LS(PRCNT)                                               &kp CARET         &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp LC(LA(SPACE))  &kp LANGUAGE_1  &kp LANG2       &kp UP_ARROW    &none            &kp LC(LA(KP_NUMBER_0))    &none           &none             &kp MINUS      &kp EQUAL     &kp LBKT              &kp RBKT
-&kp LSHFT          &none           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp EQUAL                  &kp LANGUAGE_9  &none             &kp COMMA      &kp DOT       &kp SEMI              &kp APOS
+&kp LSHFT          &none           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none                      &kp LANGUAGE_9  &none             &kp COMMA      &kp DOT       &kp SEMI              &kp APOS
 &none              &none           &none           &none           &trans           &trans                     &kp LESS_THAN   &kp GREATER_THAN                                                     &kp SLASH
             >;
 
@@ -108,21 +108,21 @@
 
         FCPX {
             bindings = <
-&kp LS(TAB)           &kp LA(T)  &kp LC(LA(M))  &kp LC(LA(R))  &trans                             &kp LG(B)             &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp LC(MINUS)        &kp LS(SPACE)
-&kp LC(LG(NUMBER_1))  &trans     &trans         &trans         &trans  &trans    &kp LC(LS(TAB))  &kp LC(TAB)           &kp LS(LEFT_ARROW)    &kp LS(RIGHT_ARROW)    &kp LS(LG(R))        &kp LG(BACKSPACE)
-&kp LSHFT             &trans     &trans         &trans         &trans  &trans    &none            &kp LG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LC(LEFT_ARROW)     &kp LC(RIGHT_ARROW)  &trans
-&trans                &trans     &trans         &trans         &trans  &trans    &kp LG(MINUS)    &kp LS(LG(NUMBER_6))                                                                    &trans
+&kp LS(TAB)           &kp LA(T)  &kp LC(LA(M))  &kp LC(LA(R))  &kp LA(C)                             &kp LG(B)             &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp LC(MINUS)        &kp LS(SPACE)
+&kp LC(LG(NUMBER_1))  &trans     &trans         &trans         &trans     &trans    &kp LC(LS(TAB))  &kp LC(TAB)           &kp LS(LEFT_ARROW)    &kp LS(RIGHT_ARROW)    &kp LS(LG(R))        &kp LG(BACKSPACE)
+&kp LSHFT             &trans     &trans         &trans         &trans     &trans    &none            &kp LG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LC(LEFT_ARROW)     &kp LC(RIGHT_ARROW)  &trans
+&trans                &none      &trans         &trans         &trans     &trans    &kp LG(MINUS)    &kp LS(LG(NUMBER_6))                                                                    &kp LA(S)
             >;
 
-            sensor-bindings = <&inc_dec_kp LA(LEFT_BRACKET) LA(RIGHT_BRACKET)>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         MOUSE {
             bindings = <
-&trans          &trans  &trans  &trans  &trans                    &none            &none             &none           &trans          &kp BACKSPACE
-&trans          &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK        &mkp RCLK         &none           &mmv MOVE_UP    &none
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans    &none   &msc MOVE_X(20)  &msc MOVE_X(-20)  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
-&trans          &trans  &trans  &trans  &trans  &trans    &trans  &trans                                                             &trans
+&trans          &trans  &trans  &trans  &trans                             &none             &none            &none           &trans          &kp BACKSPACE
+&trans          &trans  &trans  &trans  &trans  &trans    &trans           &mkp LCLK         &mkp RCLK        &none           &mmv MOVE_UP    &none
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans    &none            &msc SCRL_LEFT    &msc SCRL_RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
+&trans          &trans  &trans  &trans  &trans  &trans    &msc MOVE_X(20)  &msc MOVE_X(-20)                                                   &trans
             >;
 
             sensor-bindings = <&scroll_up_down>, <&scroll_up_down>;
